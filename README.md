@@ -1,7 +1,6 @@
 Project Management Tool (Django)
 
 A full-stack collaborative project management tool, built with Django, supporting authentication, project boards, task assignment, comments, notifications, and real-time updates.
-This project is designed as a learning-to-production journey, covering backend, frontend, and real-time features.
 
 Features :
 Core Features 
@@ -34,18 +33,11 @@ Frontend:
 - CSS (custom Trello-style UI)
 - JavaScript (AJAX)
 
-Installation & Setup:
-Create Virtual Environment: python -m venv venv
-Activate it: Windows(venv\Scripts\activate)
-             Mac/Linux(source venv/bin/activate)
-
-Install Requirements:
+Installation, Setup & Run:
+- python -m venv venv
+- Windows(venv\Scripts\activate)/ Mac/Linux(source venv/bin/activate)
 - pip install django
 - pip install django channels
-
-Apply Migrations:
 - python manage.py makemigrations
 - python manage.py migrate
-
-Run Development Server:
 - python manage.py runserver
