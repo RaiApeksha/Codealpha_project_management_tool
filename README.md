@@ -40,12 +40,12 @@ Activate it: Windows(venv\Scripts\activate)
              Mac/Linux(source venv/bin/activate)
 
 Install Requirements:
-pip install django
-pip install django channels
+- pip install django
+- pip install django channels
 
 Apply Migrations:
-python manage.py makemigrations
-python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
 Run Development Server:
-python manage.py runserver
+- python manage.py runserver
